@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    image: seu-usuario-docker/devops-app:latest
+    restart: always
+    ports:
+      - "3000:3000"
